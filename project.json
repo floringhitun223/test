@@ -217,12 +217,262 @@
       ],
       "vars": [],
       "nav": true
+    },
+    {
+      "id": 8,
+      "name": "NavBar1",
+      "root": {
+        "id": 7,
+        "name": "NavBar1Root",
+        "kind": {
+          "Column": {
+            "scroll": true
+          }
+        },
+        "style": {
+          "width": "Fill",
+          "height": "Fill",
+          "padding": 0.0,
+          "gap": 0.0,
+          "bg": null,
+          "color": null,
+          "font": 0.0,
+          "bold": false,
+          "align": "Start",
+          "radius": 0.0,
+          "visible": true,
+          "enabled": true,
+          "pad4": null,
+          "margin": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "border": 0.0,
+          "border_color": null,
+          "shadow": 0.0,
+          "opacity": 1.0,
+          "italic": false,
+          "underline": false,
+          "strike": false,
+          "text_align": "Start",
+          "line_height": 0.0,
+          "letter": 0.0,
+          "min_w": 0.0,
+          "min_h": 0.0,
+          "max_w": 0.0,
+          "justify": "Start",
+          "anchor": {
+            "h": 0,
+            "x": 0.0,
+            "x2": 0.0,
+            "v": 0,
+            "y": 0.0,
+            "y2": 0.0
+          },
+          "family": "",
+          "gradient": null,
+          "arrange": 0,
+          "look": 0,
+          "radius4": null,
+          "border4": null,
+          "border_style": 0,
+          "shadow_x": 0.0,
+          "shadow_y": 0.0,
+          "shadow_blur": 0.0,
+          "shadow_spread": 0.0,
+          "shadow_color": null,
+          "grad_angle": 180.0,
+          "states": []
+        },
+        "children": [
+          {
+            "id": 9,
+            "name": "NavItems1",
+            "kind": {
+              "NavBar": {
+                "items": [
+                  {
+                    "label": "Main",
+                    "icon": "home",
+                    "screen": "Main",
+                    "badge": ""
+                  },
+                  {
+                    "label": "settings",
+                    "icon": "settings",
+                    "screen": "settings",
+                    "badge": ""
+                  }
+                ],
+                "selected": 0,
+                "labels": 0,
+                "indicator": 0,
+                "idle": null
+              }
+            },
+            "style": {
+              "width": "Fill",
+              "height": "Auto",
+              "padding": 0.0,
+              "gap": 8.0,
+              "bg": null,
+              "color": null,
+              "font": 0.0,
+              "bold": false,
+              "align": "Start",
+              "radius": 0.0,
+              "visible": true,
+              "enabled": true,
+              "pad4": null,
+              "margin": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "border": 0.0,
+              "border_color": null,
+              "shadow": 0.0,
+              "opacity": 1.0,
+              "italic": false,
+              "underline": false,
+              "strike": false,
+              "text_align": "Start",
+              "line_height": 0.0,
+              "letter": 0.0,
+              "min_w": 0.0,
+              "min_h": 0.0,
+              "max_w": 0.0,
+              "justify": "Start",
+              "anchor": {
+                "h": 0,
+                "x": 0.0,
+                "x2": 0.0,
+                "v": 0,
+                "y": 0.0,
+                "y2": 0.0
+              },
+              "family": "",
+              "gradient": null,
+              "arrange": 0,
+              "look": 0,
+              "radius4": null,
+              "border4": null,
+              "border_style": 0,
+              "shadow_x": 0.0,
+              "shadow_y": 0.0,
+              "shadow_blur": 0.0,
+              "shadow_spread": 0.0,
+              "shadow_color": null,
+              "grad_angle": 180.0,
+              "states": []
+            },
+            "children": [],
+            "class": "",
+            "tokens": {},
+            "bind": {},
+            "var": "",
+            "layer": 4
+          }
+        ],
+        "class": "",
+        "tokens": {},
+        "bind": {},
+        "var": "",
+        "layer": 0
+      },
+      "events": [],
+      "vars": [],
+      "nav": false,
+      "shared": true,
+      "everywhere": 2
+    },
+    {
+      "id": 14,
+      "name": "settings",
+      "root": {
+        "id": 13,
+        "name": "settingsRoot",
+        "kind": {
+          "Column": {
+            "scroll": true
+          }
+        },
+        "style": {
+          "width": "Fill",
+          "height": "Fill",
+          "padding": 16.0,
+          "gap": 12.0,
+          "bg": null,
+          "color": null,
+          "font": 0.0,
+          "bold": false,
+          "align": "Start",
+          "radius": 0.0,
+          "visible": true,
+          "enabled": true,
+          "pad4": null,
+          "margin": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "border": 0.0,
+          "border_color": null,
+          "shadow": 0.0,
+          "opacity": 1.0,
+          "italic": false,
+          "underline": false,
+          "strike": false,
+          "text_align": "Start",
+          "line_height": 0.0,
+          "letter": 0.0,
+          "min_w": 0.0,
+          "min_h": 0.0,
+          "max_w": 0.0,
+          "justify": "Start",
+          "anchor": {
+            "h": 0,
+            "x": 0.0,
+            "x2": 0.0,
+            "v": 0,
+            "y": 0.0,
+            "y2": 0.0
+          },
+          "family": "",
+          "gradient": null,
+          "arrange": 0,
+          "look": 0,
+          "radius4": null,
+          "border4": null,
+          "border_style": 0,
+          "shadow_x": 0.0,
+          "shadow_y": 0.0,
+          "shadow_blur": 0.0,
+          "shadow_spread": 0.0,
+          "shadow_color": null,
+          "grad_angle": 180.0,
+          "states": []
+        },
+        "children": [],
+        "class": "",
+        "tokens": {},
+        "bind": {},
+        "var": "",
+        "layer": 0
+      },
+      "events": [],
+      "vars": [],
+      "nav": true
     }
   ],
   "vars": [],
   "events": [],
-  "start": "Main",
-  "next": 7,
+  "start": "settings",
+  "next": 15,
   "assets": [
     "preview__3_.webp"
   ],

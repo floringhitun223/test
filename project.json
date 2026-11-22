@@ -194,7 +194,27 @@
         "var": "",
         "layer": 0
       },
-      "events": [],
+      "events": [
+        {
+          "id": 6,
+          "kind": "Standard",
+          "trigger": "ScreenOpen",
+          "conds": [],
+          "any": false,
+          "acts": [
+            {
+              "ListAdd": {
+                "list": "",
+                "e": ""
+              }
+            }
+          ],
+          "subs": [],
+          "enabled": true,
+          "collapsed": false,
+          "name": "Event 1"
+        }
+      ],
       "vars": [],
       "nav": true
     }
@@ -202,7 +222,7 @@
   "vars": [],
   "events": [],
   "start": "Main",
-  "next": 6,
+  "next": 7,
   "assets": [
     "preview__3_.webp"
   ],

@@ -1,0 +1,415 @@
+{
+  "layout_v": 2,
+  "name": "My app",
+  "package": "com.example.myapp",
+  "version": "1.0",
+  "version_code": 1,
+  "theme": {
+    "primary": [
+      98,
+      84,
+      232
+    ],
+    "dark": false
+  },
+  "icon": {
+    "bg": [
+      98,
+      84,
+      232
+    ],
+    "letter": "M",
+    "asset": ""
+  },
+  "screens": [
+    {
+      "id": 2,
+      "name": "Main",
+      "root": {
+        "id": 1,
+        "name": "MainRoot",
+        "kind": {
+          "Column": {
+            "scroll": true
+          }
+        },
+        "style": {
+          "width": "Fill",
+          "height": "Fill",
+          "padding": 16.0,
+          "gap": 12.0,
+          "bg": [
+            31,
+            31,
+            31,
+            255
+          ],
+          "color": null,
+          "font": 0.0,
+          "bold": false,
+          "align": "Start",
+          "radius": 0.0,
+          "visible": true,
+          "enabled": true,
+          "pad4": null,
+          "margin": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "border": 0.0,
+          "border_color": null,
+          "shadow": 0.0,
+          "opacity": 1.0,
+          "italic": false,
+          "underline": false,
+          "strike": false,
+          "text_align": "Start",
+          "line_height": 0.0,
+          "letter": 0.0,
+          "min_w": 0.0,
+          "min_h": 0.0,
+          "max_w": 0.0,
+          "justify": "Start",
+          "anchor": {
+            "h": 0,
+            "x": 0.0,
+            "x2": 0.0,
+            "v": 0,
+            "y": 0.0,
+            "y2": 0.0
+          },
+          "family": "",
+          "gradient": null,
+          "arrange": 0,
+          "look": 0,
+          "radius4": null,
+          "border4": null,
+          "border_style": 0,
+          "shadow_x": 0.0,
+          "shadow_y": 0.0,
+          "shadow_blur": 0.0,
+          "shadow_spread": 0.0,
+          "shadow_color": null,
+          "grad_angle": 180.0,
+          "states": []
+        },
+        "children": [
+          {
+            "id": 5,
+            "name": "Segmented1",
+            "kind": {
+              "Segmented": {
+                "options": [
+                  "Day",
+                  "Week",
+                  "Month"
+                ],
+                "selected": 1
+              }
+            },
+            "style": {
+              "width": "Fill",
+              "height": "Auto",
+              "padding": 0.0,
+              "gap": 8.0,
+              "bg": null,
+              "color": null,
+              "font": 0.0,
+              "bold": false,
+              "align": "Start",
+              "radius": 0.0,
+              "visible": true,
+              "enabled": true,
+              "pad4": null,
+              "margin": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "border": 0.0,
+              "border_color": null,
+              "shadow": 0.0,
+              "opacity": 1.0,
+              "parts": {
+                "selected": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "track": [
+                  43,
+                  43,
+                  43,
+                  255
+                ]
+              },
+              "italic": false,
+              "underline": false,
+              "strike": false,
+              "text_align": "Start",
+              "line_height": 0.0,
+              "letter": 0.0,
+              "min_w": 0.0,
+              "min_h": 0.0,
+              "max_w": 0.0,
+              "justify": "Start",
+              "anchor": {
+                "h": 0,
+                "x": 0.0,
+                "x2": 0.0,
+                "v": 0,
+                "y": 0.0,
+                "y2": 0.0
+              },
+              "family": "",
+              "gradient": null,
+              "arrange": 0,
+              "look": 0,
+              "radius4": null,
+              "border4": null,
+              "border_style": 0,
+              "shadow_x": 0.0,
+              "shadow_y": 0.0,
+              "shadow_blur": 0.0,
+              "shadow_spread": 0.0,
+              "shadow_color": null,
+              "grad_angle": 180.0,
+              "states": []
+            },
+            "children": [],
+            "class": "",
+            "tokens": {},
+            "bind": {},
+            "var": "",
+            "layer": 4
+          }
+        ],
+        "class": "",
+        "tokens": {},
+        "bind": {},
+        "var": "",
+        "layer": 0
+      },
+      "events": [],
+      "vars": [],
+      "nav": true
+    }
+  ],
+  "vars": [],
+  "events": [],
+  "start": "Main",
+  "next": 6,
+  "assets": [
+    "preview__3_.webp"
+  ],
+  "plugins": [],
+  "meta": {
+    "publisher": "",
+    "description": "",
+    "website": "",
+    "email": "",
+    "copyright": "",
+    "category": "Productivity",
+    "keywords": "",
+    "orientation": "Any",
+    "fullscreen": false,
+    "keep_awake": false,
+    "min_sdk": 24,
+    "target_sdk": 34,
+    "install_location": 0,
+    "window_w": 420,
+    "window_h": 760,
+    "resizable": true,
+    "tray": false,
+    "web_title": "",
+    "web_lang": "en",
+    "web_theme": "",
+    "web_head": "",
+    "splash": false,
+    "splash_bg": [
+      255,
+      255,
+      255
+    ],
+    "chrome": {
+      "titlebar": true,
+      "title": "",
+      "bar_h": 34.0,
+      "bar_bg": "",
+      "bar_fg": "",
+      "show_icon": true,
+      "center_title": false,
+      "show_min": true,
+      "show_max": true,
+      "show_close": true,
+      "nav": 0,
+      "nav_bg": "",
+      "status": false,
+      "status_bg": "",
+      "status_icons": 0,
+      "nav_icons": 0,
+      "site": "https://example.com"
+    }
+  },
+  "nav": {
+    "bottom": false,
+    "drawer": false,
+    "top": false,
+    "tabs": false,
+    "back": true,
+    "auto": true,
+    "items": [
+      {
+        "label": "Main",
+        "icon": "home",
+        "screen": "Main",
+        "badge": ""
+      }
+    ]
+  },
+  "layers": [
+    {
+      "id": 4,
+      "name": "Default",
+      "hidden": false,
+      "locked": false
+    }
+  ],
+  "active_layer": 4,
+  "anims": [],
+  "tokens": [
+    {
+      "name": "primary",
+      "kind": "Color",
+      "value": "#0F6CBD",
+      "group": "Colors",
+      "note": ""
+    },
+    {
+      "name": "surface",
+      "kind": "Color",
+      "value": "#FFFFFF",
+      "group": "Colors",
+      "note": ""
+    },
+    {
+      "name": "text",
+      "kind": "Color",
+      "value": "#242424",
+      "group": "Colors",
+      "note": ""
+    },
+    {
+      "name": "muted",
+      "kind": "Color",
+      "value": "#616161",
+      "group": "Colors",
+      "note": ""
+    },
+    {
+      "name": "danger",
+      "kind": "Color",
+      "value": "#C50F1F",
+      "group": "Colors",
+      "note": ""
+    },
+    {
+      "name": "space_s",
+      "kind": "Size",
+      "value": "8",
+      "group": "Spacing",
+      "note": ""
+    },
+    {
+      "name": "space_m",
+      "kind": "Size",
+      "value": "16",
+      "group": "Spacing",
+      "note": ""
+    },
+    {
+      "name": "space_l",
+      "kind": "Size",
+      "value": "24",
+      "group": "Spacing",
+      "note": ""
+    },
+    {
+      "name": "radius",
+      "kind": "Size",
+      "value": "8",
+      "group": "Shape",
+      "note": ""
+    },
+    {
+      "name": "title_size",
+      "kind": "Size",
+      "value": "24",
+      "group": "Type",
+      "note": ""
+    },
+    {
+      "name": "body_size",
+      "kind": "Size",
+      "value": "15",
+      "group": "Type",
+      "note": ""
+    }
+  ],
+  "styles": [],
+  "langs": {
+    "enabled": false,
+    "default": "",
+    "list": [],
+    "terms": [],
+    "follow_device": false
+  },
+  "apis": [],
+  "firebase": {
+    "enabled": false,
+    "api_key": "",
+    "project_id": "",
+    "app_id": "",
+    "region": "",
+    "bucket": "",
+    "measurement_id": "",
+    "analytics_secret": "",
+    "database": "",
+    "sender_id": "",
+    "vapid_key": "",
+    "auth_domain": "",
+    "database_url": ""
+  },
+  "perms": [],
+  "tasks": [],
+  "deploy": {
+    "host": "None",
+    "site": "",
+    "domain": "",
+    "branch": "",
+    "path": "",
+    "last_url": "",
+    "user": "",
+    "server": ""
+  },
+  "installer": {
+    "license": "",
+    "info": "",
+    "scope": 0,
+    "desktop_icon": true,
+    "startup": false,
+    "run_after": true,
+    "scheme": "",
+    "file_ext": "",
+    "file_desc": "",
+    "remove_data": true,
+    "langs": [
+      "english"
+    ],
+    "registry": []
+  }
+}
